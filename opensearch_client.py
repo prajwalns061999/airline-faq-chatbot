@@ -7,7 +7,7 @@ import uuid
 
 # ---------- Configuration ----------
 region = "us-east-1"
-host = "https://vsyp9gyfwkrot2zmtt89.us-east-1.aoss.amazonaws.com"
+host = "Your_OpenSearch_Endpoint"
 INDEX_NAME = "skyconnect-knowledge-base"
 EMBEDDING_DIM = 1536  # Titan Embedding model output size
 # -----------------------------------
