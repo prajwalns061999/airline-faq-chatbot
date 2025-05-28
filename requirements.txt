@@ -1,0 +1,5 @@
+streamlit
+boto3
+opensearch-py
+requests-aws4auth
+PyPDF2

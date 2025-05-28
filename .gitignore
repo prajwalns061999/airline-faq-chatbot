@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+myenv/
+venv/
+ENV/
+env/
+.env
+.venv
+# If you have other venv names, add them here
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Data files (if they are very large or sensitive and you don't want to commit them directly)
+# For now, since they are part of the demo, we'll keep them, but for large datasets,
+# you'd typically .gitignore them and provide instructions on how to obtain/generate them.
+# data/*.pdf
