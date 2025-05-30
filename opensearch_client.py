@@ -7,7 +7,7 @@ from requests_aws4auth import AWS4Auth
 
 # ---------- Configuration ----------
 region = "us-east-1" # Consider making this configurable if you might use different regions
-host = "https://vsyp9gyfwkrot2zmtt89.us-east-1.aoss.amazonaws.com" # Your OpenSearch endpoint
+host = "<YOUR_OPENSEARCH_ENDPOINT>" # Your OpenSearch endpoint
 
 # Default index name, can be used if no specific index is provided to create_index
 DEFAULT_INDEX_NAME = "skyconnect-knowledge-base"

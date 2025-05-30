@@ -90,7 +90,7 @@ There are two main steps to run the application:
 
 2.  **Run the Streamlit Chatbot Application:**
     ```bash
-    streamlit run app.py
+    streamlit run multiApp.py
     ```
     This will open the chatbot interface in your web browser.
 
