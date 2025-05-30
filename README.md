@@ -94,22 +94,6 @@ There are two main steps to run the application:
     ```
     This will open the chatbot interface in your web browser.
 
-## 📂 Project Structure
-
-AIRLINEFAQ/
-├── pycache/
-├── data/
-│ ├── SkyConnect_Baggage_And_Policies.pdf
-│ └── SkyConnect_Flights.pdf
-├── myenv/ # Virtual environment (ignored by git)
-├── app.py # Main Streamlit application file
-├── bedrock_client.py # Handles interactions with AWS Bedrock (LLM & embeddings)
-├── ingest.py # Script to process PDFs and ingest data into OpenSearch
-├── opensearch_client.py # Handles interactions with Amazon OpenSearch Serverless
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
-
 ## 🛠️ Key Technologies Used
 
 *   **Python**
