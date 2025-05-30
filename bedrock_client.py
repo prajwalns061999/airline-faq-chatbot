@@ -19,14 +19,10 @@ def get_embedding(text, model_id="amazon.titan-embed-text-v1"):
     response_body = json.loads(response['body'].read())
     return response_body['embedding']
 
-def query_llm(question, context):
+def query_llm(question, context, persona_prompt_template):
     # Updated prompt for more precise, context-bound answers
     prompt = f"""
-Human: You are SkyConnect Airlines' friendly and helpful assistant. Greet and introduce yourself to the user if the user greets you.
-Your primary goal is to answer the user's question accurately and concisely based **only** on the information available in the provided 'Context' below.
-Do not use any external knowledge or make assumptions beyond what is stated in the context.
-If the answer to the question cannot be found within the provided context, clearly state that you don't have enough information from the documents to answer.
-Avoid speculation. Be direct and helpful.
+Human: {persona_prompt_template}
 
 Context:
 {context}
